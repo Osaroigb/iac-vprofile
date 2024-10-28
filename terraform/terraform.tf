@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "vprofile-actions359"
+    bucket = "terraform-state-whoami" # TODO: always update this
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
